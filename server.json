@@ -15,6 +15,30 @@
       "category": "Compra",
       "price": 500,
       "createdAt": "2023-01-28T20:10:17.430Z"
+    },
+    {
+      "description": "teste",
+      "price": 1500,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2023-01-29T04:04:31.700Z",
+      "id": 3
+    },
+    {
+      "description": "teste2",
+      "price": 1500,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2023-01-29T04:22:58.336Z",
+      "id": 4
+    },
+    {
+      "description": "Doritos",
+      "price": 12,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-01-29T04:24:21.817Z",
+      "id": 5
     }
   ]
 }

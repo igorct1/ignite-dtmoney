@@ -8,10 +8,10 @@ export function useSummary() {
     (acc, transaction) => {
       if (transaction.type === "income") {
         acc.income += transaction.price;
-        acc.total += acc.income;
+        acc.total += transaction.price;
       } else {
         acc.outcome += transaction.price;
-        acc.total -= acc.outcome;
+        acc.total -= transaction.price;
       }
 
       return acc;
