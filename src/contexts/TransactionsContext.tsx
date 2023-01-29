@@ -30,7 +30,7 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
       setTransactions(json);
     }
     fetchData("http://localhost:3000/transactions");
-  }, [transactions]);
+  }, []);
 
   return (
     <TransactionsContext.Provider value={{ transactions }}>
